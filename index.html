@@ -105,7 +105,7 @@ body.hidezh #page .hd .h,body.hidezh #page .p,body.hidezh #page .ch,body.hidezh 
 /* 아래 바 */
 .dock{position:fixed;left:0;right:0;bottom:0;z-index:6;display:flex;justify-content:center;padding:8px 12px calc(10px + env(safe-area-inset-bottom));background:linear-gradient(rgba(255,255,255,0),#fff 35%)}
 .dkw{width:100%;max-width:640px}
-.dkr{display:grid;grid-template-columns:1fr 1fr .9fr;gap:6px;margin-bottom:6px}
+.dkr{display:grid;grid-template-columns:1fr .9fr 1fr;gap:6px;margin-bottom:6px}
 .dk{display:grid;grid-template-columns:56px 1fr 56px;gap:6px}
 .hold{height:52px;border-radius:14px;background:var(--ink);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.2;touch-action:none;-webkit-user-select:none;user-select:none;box-shadow:0 3px 10px rgba(31,42,38,.25);transition:background .15s,transform .1s}
 .hold .hl1{font-size:14.5px;font-weight:900;white-space:nowrap}
@@ -317,7 +317,7 @@ table.pt{width:100%;border-collapse:collapse;margin-top:12px;font-size:12.5px}
 </div>
 <main id="page"></main>
 <div class="dock"><div class="dkw">
-  <div class="dkr"><button class="hold" data-mode="zh"><span class="hl1"><i>汉</i>한자만</span><span class="hl2">꾹 · 뜻 떠올리기</span></button><button class="hold" data-mode="ko"><span class="hl1"><i>가</i>한국어만</span><span class="hl2">꾹 · 중국어로 말하기</span></button><button class="go" id="goTest">⚡ 즉시반응</button></div>
+  <div class="dkr"><button class="hold" data-mode="zh"><span class="hl1"><i>汉</i>한자만</span><span class="hl2">꾹 · 뜻 떠올리기</span></button><button class="go" id="goTest">⚡ 즉시반응</button><button class="hold" data-mode="ko"><span class="hl1"><i>가</i>한국어만</span><span class="hl2">꾹 · 중국어로 말하기</span></button></div>
   <div class="dk"><button class="nb" id="prev">◀</button><button class="pg" id="pgBtn"></button><button class="nb" id="next">▶</button></div>
 </div></div>
 <div class="ov" id="ov"><div class="sheet" id="sheet"></div></div>
